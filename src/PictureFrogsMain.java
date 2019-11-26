@@ -90,9 +90,6 @@ public class PictureFrogsMain {
         }
         try {
             PrintWriter writer = new PrintWriter("output.txt");
-//            for (int i = 0; i < squareVals.length - 1; i++) {
-//                writer.println(squareVals[i] + 1);
-//            }
             for (int[] i : outputVals) {
                 String st = "";
                 for (int c : i) {
